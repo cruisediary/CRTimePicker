@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C86486D1E863AC4007AC636 /* CRTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */; };
+		4C86486F1E86495C007AC636 /* CRHourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86486E1E86495C007AC636 /* CRHourCell.swift */; };
 		4CAAA6061E8638B000927DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAA6051E8638B000927DB9 /* AppDelegate.swift */; };
-		4CAAA6081E8638B000927DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAA6071E8638B000927DB9 /* ViewController.swift */; };
 		4CAAA60B1E8638B000927DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAA6091E8638B000927DB9 /* Main.storyboard */; };
 		4CAAA60D1E8638B000927DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAA60C1E8638B000927DB9 /* Assets.xcassets */; };
 		4CAAA6101E8638B000927DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAA60E1E8638B000927DB9 /* LaunchScreen.storyboard */; };
@@ -26,9 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTimePickerViewController.swift; sourceTree = "<group>"; };
+		4C86486E1E86495C007AC636 /* CRHourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRHourCell.swift; sourceTree = "<group>"; };
 		4CAAA6021E8638B000927DB9 /* CRTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAAA6051E8638B000927DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CAAA6071E8638B000927DB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CAAA60A1E8638B000927DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CAAA60C1E8638B000927DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CAAA60F1E8638B000927DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				4CAAA6051E8638B000927DB9 /* AppDelegate.swift */,
-				4CAAA6071E8638B000927DB9 /* ViewController.swift */,
+				4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */,
+				4C86486E1E86495C007AC636 /* CRHourCell.swift */,
 				4CAAA6091E8638B000927DB9 /* Main.storyboard */,
 				4CAAA60C1E8638B000927DB9 /* Assets.xcassets */,
 				4CAAA60E1E8638B000927DB9 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				TargetAttributes = {
 					4CAAA6011E8638B000927DB9 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3YN6YPP3YC;
 						ProvisioningStyle = Automatic;
 					};
 					4CAAA6151E8638B000927DB9 = {
@@ -199,8 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CAAA6081E8638B000927DB9 /* ViewController.swift in Sources */,
+				4C86486D1E863AC4007AC636 /* CRTimePickerViewController.swift in Sources */,
 				4CAAA6061E8638B000927DB9 /* AppDelegate.swift in Sources */,
+				4C86486F1E86495C007AC636 /* CRHourCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +342,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YN6YPP3YC;
 				INFOPLIST_FILE = CRTimePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cruz.CRTimePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,7 +356,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3YN6YPP3YC;
 				INFOPLIST_FILE = CRTimePicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cruz.CRTimePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +413,7 @@
 				4CAAA6211E8638B000927DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CAAA6221E8638B000927DB9 /* Build configuration list for PBXNativeTarget "CRTimePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +422,7 @@
 				4CAAA6241E8638B000927DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

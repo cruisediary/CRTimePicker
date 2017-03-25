@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CRTimePicker
 //
-//  Created by CruzDiary on 25/03/2017.
+//  Created by Cruz on 25/03/2017.
 //  Copyright © 2017 cruz. All rights reserved.
 //
 
