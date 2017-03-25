@@ -26,6 +26,10 @@ class CRTimePickerViewController: UIViewController {
     @IBOutlet weak var minuteLabel: UILabel!
     @IBOutlet weak var minuteTableView: UITableView!
     
+    @IBAction func doneButtonDidTap(_ sender: UIButton) {
+        delegate?.timeDidSelect(hour: hour, minute: minute)
+    }
+    
     var hour: Int = 0
     var minute: Int = 0
 
