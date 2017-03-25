@@ -106,15 +106,15 @@
                                         <rect key="frame" x="-1" y="-0.5" width="188" height="591"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRHourCell" id="SqM-EQ-L3c" customClass="CRHourCell" customModule="CRTimePicker" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CRMinuteCell" id="SqM-EQ-L3c" customClass="CRMinuteCell" customModule="CRTimePicker" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="188" height="44"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SqM-EQ-L3c" id="Oxv-wV-aO4">
                                                     <rect key="frame" x="0.0" y="0.0" width="188" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVZ-QO-gwg">
-                                                            <rect key="frame" x="138" y="7" width="30" height="30"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="05" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVZ-QO-gwg">
+                                                            <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="5UX-I9-mz8"/>
                                                                 <constraint firstAttribute="width" constant="30" id="ECe-bu-GCA"/>
@@ -126,11 +126,11 @@
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="oVZ-QO-gwg" firstAttribute="centerY" secondItem="Oxv-wV-aO4" secondAttribute="centerY" id="2uR-VU-HBW"/>
-                                                        <constraint firstAttribute="trailing" secondItem="oVZ-QO-gwg" secondAttribute="trailing" constant="20" id="Agx-Yq-HYM"/>
+                                                        <constraint firstItem="oVZ-QO-gwg" firstAttribute="leading" secondItem="Oxv-wV-aO4" secondAttribute="leading" constant="20" id="xaj-9z-Qw0"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
-                                                    <outlet property="hourLabel" destination="oVZ-QO-gwg" id="lmN-Q6-k2y"/>
+                                                    <outlet property="minuteLabel" destination="oVZ-QO-gwg" id="Uwi-Wz-mqX"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>
@@ -208,7 +208,10 @@
                         <outlet property="hourLabel" destination="GfJ-xk-VY3" id="M7z-tT-WnF"/>
                         <outlet property="hourTableView" destination="wGS-NG-vSS" id="LR2-DR-Okc"/>
                         <outlet property="hourView" destination="rUC-IG-aex" id="Yl2-RS-nFN"/>
+                        <outlet property="minuteContainerView" destination="yO8-KK-w3N" id="ujB-sN-Wsm"/>
+                        <outlet property="minuteLabel" destination="qCp-hM-ZfS" id="Ih7-4V-evU"/>
                         <outlet property="minuteTableView" destination="TOd-cg-YEn" id="5ul-KL-1I4"/>
+                        <outlet property="minuteView" destination="MWf-vi-bcZ" id="6zh-MN-oMF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySt-h1-cQT" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C86486D1E863AC4007AC636 /* CRTimePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */; };
 		4C86486F1E86495C007AC636 /* CRHourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86486E1E86495C007AC636 /* CRHourCell.swift */; };
+		4C8648711E864FCB007AC636 /* CRMinuteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8648701E864FCB007AC636 /* CRMinuteCell.swift */; };
 		4CAAA6061E8638B000927DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAAA6051E8638B000927DB9 /* AppDelegate.swift */; };
 		4CAAA60B1E8638B000927DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAA6091E8638B000927DB9 /* Main.storyboard */; };
 		4CAAA60D1E8638B000927DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAAA60C1E8638B000927DB9 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRTimePickerViewController.swift; sourceTree = "<group>"; };
 		4C86486E1E86495C007AC636 /* CRHourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRHourCell.swift; sourceTree = "<group>"; };
+		4C8648701E864FCB007AC636 /* CRMinuteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRMinuteCell.swift; sourceTree = "<group>"; };
 		4CAAA6021E8638B000927DB9 /* CRTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAAA6051E8638B000927DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CAAA60A1E8638B000927DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4CAAA6051E8638B000927DB9 /* AppDelegate.swift */,
 				4C86486C1E863AC4007AC636 /* CRTimePickerViewController.swift */,
 				4C86486E1E86495C007AC636 /* CRHourCell.swift */,
+				4C8648701E864FCB007AC636 /* CRMinuteCell.swift */,
 				4CAAA6091E8638B000927DB9 /* Main.storyboard */,
 				4CAAA60C1E8638B000927DB9 /* Assets.xcassets */,
 				4CAAA60E1E8638B000927DB9 /* LaunchScreen.storyboard */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8648711E864FCB007AC636 /* CRMinuteCell.swift in Sources */,
 				4C86486D1E863AC4007AC636 /* CRTimePickerViewController.swift in Sources */,
 				4CAAA6061E8638B000927DB9 /* AppDelegate.swift in Sources */,
 				4C86486F1E86495C007AC636 /* CRHourCell.swift in Sources */,
